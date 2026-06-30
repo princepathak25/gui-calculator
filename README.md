@@ -1,36 +1,36 @@
-# 🎨 Prince’s Beautiful Calculator
+# GUI Calculator
 
 A **beautiful, modern calculator** made with Python's `tkinter` library.  
 Designed with aesthetic color schemes, smooth functionality, and a clean layout — perfect for beginner GUI projects or leveling up your Python skills!
 
 ---
 
-## ✨ Features
+## Features
 
-- 🧠 Evaluates basic math expressions  
-- 🔄 Backspace & clear buttons  
-- 🎯 Accurate real-time calculations  
-- 🎨 Colored buttons for better UI experience  
-- 🖱️ Mouse-friendly clickable layout  
-- 🔢 Supports: `+`, `-`, `*`, `/`, `%`, `(`, `)`, `.` and more!
+- Evaluates basic math expressions  
+- Backspace & clear buttons  
+- Accurate real-time calculations  
+- Colored buttons for better UI experience  
+- Mouse-friendly clickable layout  
+- Supports: `+`, `-`, `*`, `/`, `%`, `(`, `)`, `.` and more!
 
 ---
 
-## 🖼️ UI Preview
+## UI Preview
 
 > Clean, centered layout with colored keys for actions, operations, and digits.  
 > Easy to extend, easy to understand.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3**
 - **Tkinter** (comes built-in with Python)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone this repo**
    ```bash
@@ -43,11 +43,11 @@ Designed with aesthetic color schemes, smooth functionality, and a clean layout 
    python calculator.py
    ```
 
-> 💡 No extra libraries needed — just Python!
+> No extra libraries needed — just Python!
 
 ---
 
-## 📁 .gitignore
+## .gitignore
 ```gitignore
 __pycache__/
 *.pyc
@@ -63,10 +63,9 @@ __pycache__/
 
 ---
 
-## 🏷️ Tags
+## Tags
 `#tkinter` `#calculator` `#python-gui` `#aesthetic` `#beautiful-ui` `#open-source` `#beginner-project` `#made-by-prince`
 
 ---
 
-## 👑 Made with 💙 by Prince Pathak
-
+## Made by Prince Pathak
