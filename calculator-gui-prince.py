@@ -1,13 +1,12 @@
-# A Beautiful Calculator using Tkinter by Prince ✅❌💛
+#Calculator using Tkinter
 # --------------------------------------------------------------------
-# This code creates a modern, colorful calculator with a sleek design
+# Created a modern, colorful calculator with a sleek design
 # using the Tkinter library in Python. It features a user-friendly
 # interface, vibrant colors, and smooth functionality.
 # --------------------------------------------------------------------
 
 import tkinter as tk
 
-# --- Button functionality definitions ---
 def press(key):
     """Appends the pressed key to the input field."""
     entry.insert(tk.END, key)
@@ -41,7 +40,6 @@ btn_colors = {
     '%': '#cc99ff', '(': '#cc99ff', ')': '#cc99ff'  # Light purple for operations
 }
 
-# --- Window setup ---
 window = tk.Tk()
 window.title("🎨 Prince’s Beautiful Calculator")
 window.geometry("360x500")
