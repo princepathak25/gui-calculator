@@ -1,7 +1,9 @@
 # GUI Calculator
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-A **beautiful, modern calculator** made with Python's `tkinter` library.  
-Designed with aesthetic color schemes, smooth functionality, and a clean layout — perfect for beginner GUI projects or leveling up your Python skills!
+A **modern calculator** made with Python's `tkinter` library.  
+Designed with color schemes, smooth functionality, and a clean layout.
 
 ---
 
@@ -16,17 +18,10 @@ Designed with aesthetic color schemes, smooth functionality, and a clean layout 
 
 ---
 
-## UI Preview
-
-> Clean, centered layout with colored keys for actions, operations, and digits.  
-> Easy to extend, easy to understand.
-
----
-
 ## Tech Stack
 
 - **Python 3**
-- **Tkinter** (comes built-in with Python)
+- **Tkinter** 
 
 ---
 
@@ -42,8 +37,6 @@ Designed with aesthetic color schemes, smooth functionality, and a clean layout 
    ```bash
    python calculator.py
    ```
-
-> No extra libraries needed — just Python!
 
 ---
 
@@ -63,9 +56,5 @@ __pycache__/
 
 ---
 
-## Tags
-`#tkinter` `#calculator` `#python-gui` `#aesthetic` `#beautiful-ui` `#open-source` `#beginner-project` `#made-by-prince`
-
----
-
-## Made by Prince Pathak
+## Author
+**Prince Pathak**
