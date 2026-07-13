@@ -2,8 +2,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-A **modern calculator** made with Python's `tkinter` library.  
-Designed with color schemes, smooth functionality, and a clean layout.
+A **modern calculator** designed with color schemes, smooth functionality, and a clean layout.
 
 ---
 
