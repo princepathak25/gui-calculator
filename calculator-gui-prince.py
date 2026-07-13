@@ -1,9 +1,5 @@
 #Calculator using Tkinter
-# --------------------------------------------------------------------
-# Created a modern, colorful calculator with a sleek design
-# using the Tkinter library in Python. It features a user-friendly
-# interface, vibrant colors, and smooth functionality.
-# --------------------------------------------------------------------
+# Created a modern, colorful calculator with a sleek design.
 
 import tkinter as tk
 
@@ -30,27 +26,24 @@ def calculate():
     except:
         entry.delete(0, tk.END)
         entry.insert(0, "Error")
-
-# --- Button color configuration ---
 btn_colors = {
-    'C': '#ff4c4c',       # Red for clear
-    '⌫': '#ff9900',    # Orange for backspace
-    '=': '#33cc33',       # Green for equals
+    'C': '#ff4c4c',  
+    '⌫': '#ff9900',
+    '=': '#33cc33',      
     '/': '#cc99ff', '*': '#cc99ff', '-': '#cc99ff', '+': '#cc99ff',
-    '%': '#cc99ff', '(': '#cc99ff', ')': '#cc99ff'  # Light purple for operations
+    '%': '#cc99ff', '(': '#cc99ff', ')': '#cc99ff'
 }
 
 window = tk.Tk()
-window.title("🎨 Prince’s Beautiful Calculator")
+window.title("🎨 Calculator")
 window.geometry("360x500")
-window.config(bg="#1e1e1e")  # Dark theme background
+window.config(bg="#1e1e1e") 
 
-# --- Entry display ---
+
 entry = tk.Entry(window, font=("Segoe UI", 22), bg="#2d2d2d",
                  fg="white", bd=0, justify='right')
 entry.pack(padx=20, pady=20, fill='both')
 
-# --- Button layout ---
 buttons = [
     ['C', '⌫', '(', ')'],
     ['7', '8', '9', '/'],
@@ -71,11 +64,9 @@ for row_values in buttons:
             lambda val=btn_text: press(val)
         )
 
-        # Assign background color based on function
-        bg_color = btn_colors.get(btn_text, "#cccccc")  # Default gray
+        bg_color = btn_colors.get(btn_text, "#cccccc")  
         fg_color = "#1e1e1e" if btn_text not in ['C', '⌫', '='] else "white"
 
-        # Create button
         btn = tk.Button(
             row, text=btn_text, font=("Segoe UI", 16),
             bg=bg_color, fg=fg_color, relief='flat',
@@ -84,9 +75,6 @@ for row_values in buttons:
         )
         btn.pack(side='left', expand=True, fill='both', padx=4, pady=4)
 
-# --- Run the GUI loop ---
+# --- Run the app ---
 window.mainloop()
 
-# --- End of program ---
-# Thanks for checking out this calculator built with Tkinter.
-# Drop a star if you love beautiful UI & beginner-friendly Python apps 🚀
