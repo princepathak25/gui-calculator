@@ -33,7 +33,7 @@ A **modern calculator** designed with color schemes, smooth functionality, and a
 
 2. **Run the app**
    ```bash
-   python calculator.py
+   python calculator-gui-prince.py
    ```
 
 ---
