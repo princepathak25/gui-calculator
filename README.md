@@ -28,8 +28,7 @@ A **modern calculator** designed with color schemes, smooth functionality, and a
 
 1. **Clone this repo**
    ```bash
-   git clone https://github.com/princepathak25/beautiful-calculator-prince.git
-   cd beautiful-calculator-prince
+   git clone https://github.com/princepathak25/gui-calculator.git
    ```
 
 2. **Run the app**
