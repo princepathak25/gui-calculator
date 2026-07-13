@@ -39,21 +39,5 @@ A **modern calculator** designed with color schemes, smooth functionality, and a
 
 ---
 
-## .gitignore
-```gitignore
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
-*.env
-.DS_Store
-.idea/
-.vscode/
-*.log
-```
-
----
-
 ## Author
 **Prince Pathak**
